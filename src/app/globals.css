@@ -25,6 +25,7 @@
   --surface-tint: #4cd7f6;
   --outline: #869397;
   --outline-variant: #3d494c;
+  --placeholder: #8b9099; /* WCAG AA sur #0a0e16 (~5.3:1) */
 
   /* Primaire (cyan #06b6d4 seed) */
   --primary: #4cd7f6;
@@ -228,6 +229,11 @@ body {
 ::selection {
   background: var(--primary-container);
   color: var(--on-primary-container);
+}
+
+::placeholder {
+  color: var(--placeholder);
+  opacity: 1;
 }
 
 :focus-visible {
