@@ -435,7 +435,7 @@ export default function HomePage() {
                     Module e-commerce complet avec intégration des passerelles KKiaPay &amp; FedaPay. Prise en charge transparente de MTN Mobile Money et Moov Money avec gestion robuste des webhooks asynchrones et résilience aux coupures réseau.
                   </p>
                   <div className="rounded-lg bg-surface-container-lowest p-space-sm font-code-sm text-code-sm overflow-x-auto text-on-surface-variant">
-                    <div className="text-outline-variant pb-1 flex items-center justify-between">
+                    <div className="text-on-surface-variant pb-1 flex items-center justify-between">
                       <span>~/services/momo-webhook.ts</span>
                       <span className="text-secondary text-xs">200 OK</span>
                     </div>
