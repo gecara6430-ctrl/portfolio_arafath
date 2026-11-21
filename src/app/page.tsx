@@ -64,7 +64,7 @@ export default function HomePage() {
 
       if (waButton) {
         const text = encodeURIComponent(`Bonjour Arafath GEC, je suis intéressé par votre prestation : ${projectLabel} (Estimation : ~${totalCFA.toLocaleString("fr-FR")} FCFA). Pouvons-nous en parler ?`);
-        waButton.href = `https://wa.me/22997000000?text=${text}`;
+        waButton.href = `https://wa.me/2290141161985?text=${text}`;
       }
     }
 
@@ -148,7 +148,7 @@ export default function HomePage() {
                     <span>Télécharger mon CV (PDF)</span>
                   </a>
                   <a
-                    href="https://wa.me/22997000000"
+                    href="https://wa.me/2290141161985"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-space-xs px-space-md py-3 rounded-lg font-label-md text-label-md bg-secondary text-on-secondary font-bold hover:opacity-90 transition-opacity"
@@ -653,7 +653,7 @@ export default function HomePage() {
                       <li>✓ Support &amp; ajustements offerts 30 jours</li>
                     </ul>
                   </div>
-                  <a href="https://wa.me/22997000000" className="mt-space-sm w-full bg-primary text-on-primary py-space-md rounded-full font-label-md tracking-wider uppercase text-center hover:bg-primary-fixed-dim transition-colors block" id="btn-quote-whatsapp">Valider cette estimation sur WhatsApp</a>
+                  <a href="https://wa.me/2290141161985" className="mt-space-sm w-full bg-primary text-on-primary py-space-md rounded-full font-label-md tracking-wider uppercase text-center hover:bg-primary-fixed-dim transition-colors block" id="btn-quote-whatsapp">Valider cette estimation sur WhatsApp</a>
                 </div>
               </div>
             </div>
@@ -765,7 +765,7 @@ export default function HomePage() {
                   <span className="material-symbols-outlined text-base text-primary">share</span>
                   <span>Twitter / X</span>
                 </a>
-                <a href="https://wa.me/22997000000" rel="noopener noreferrer" target="_blank" className="flex items-center gap-1.5 px-space-sm py-2 rounded-lg bg-surface-container-low text-secondary font-label-md text-label-md hover:bg-surface-container-high transition-colors">
+                <a href="https://wa.me/2290141161985" rel="noopener noreferrer" target="_blank" className="flex items-center gap-1.5 px-space-sm py-2 rounded-lg bg-surface-container-low text-secondary font-label-md text-label-md hover:bg-surface-container-high transition-colors">
                   <span className="material-symbols-outlined text-base text-secondary">chat</span>
                   <span>WhatsApp Pro</span>
                 </a>
